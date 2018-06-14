@@ -1,3 +1,4 @@
+require 'pry'
 class Dog
 
   attr_accessor :name, :breed, :age
@@ -12,6 +13,7 @@ class Dog
   end
 
   def self.all
+    binding.pry
     @@all.count
   end
 
