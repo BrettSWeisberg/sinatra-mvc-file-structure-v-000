@@ -15,6 +15,6 @@ class Dog
   def self.all
     @@all.count
   end
-
+  binding.pry
 
 end
