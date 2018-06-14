@@ -13,7 +13,7 @@ class Dog
   end
 
   def self.all
-    @@all.count
+    @@all
   end
   #binding.pry
 
